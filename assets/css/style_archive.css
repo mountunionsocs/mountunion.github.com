@@ -1,0 +1,126 @@
+body{
+	font-family: Helvetica, sans-serif;
+	color: #444;
+	line-height: 150%;
+	font-size: .9em;
+}
+
+.container {
+	width: 650px;
+	margin: 50px auto;
+}
+
+.header {
+	position: relative;
+}
+
+.navigation { 
+	border: solid 1px #aaa;
+	border-radius: 5px;
+	text-transform: lowercase;
+	width: 380px;
+}
+.navigation ul {
+	padding: 5px;
+	margin: 0;
+}
+.navigation li {
+	display: inline;
+	margin: 0px 5px;
+}
+.navigation li.current {
+	border-bottom: 1px solid #aaa;
+}
+
+.content {
+	padding: 0px 20px;
+	margin: 40px 0px;
+	border-radius: 5px;
+}
+
+.featured {
+	background: url('images/purple-texture.jpg') center no-repeat #fff;
+	width: 400px;
+	border: 1px solid #eee;
+	padding: 15px 15px;
+	margin: 0 auto;
+	color: #fff;
+	border-radius: 10px;
+}
+
+/* Class Styles */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Ubuntu Condensed', Helevetica, sans-serif;
+}
+h1 { font-size: 2.3em; }
+h2 { font-size: 1.8em; }
+
+.byline {
+	font-size: .5em !important;
+	font-weight: lighter;
+	position: absolute;
+	padding: 1px 5px;
+	color: #5c1b93;
+}
+.centered {
+	text-align: center;
+}
+.float-right {
+	font-size: .9em;
+	float: right;
+	color: #e6e6e6;
+}
+span.amp {
+	font-family: Baskerville, Palatino, "Book Antiqua", serif !important;
+	font-style: italic;
+	font-weight: normal;
+}
+
+/*Link Styles*/
+
+a {
+	text-decoration: none;
+	color: #242424;
+}
+a:hover {
+	border-bottom: 1px solid #e6e6e6;	
+	color: #5c1b93;
+}
+
+.content a{
+	border-bottom: 1px solid #e6e6e6;
+}
+
+/*MEDIA QUERIES*/
+
+@media all and (max-width: 650px) {
+	body {
+		text-align: left;
+	}
+	.container {
+		width: 98%;
+	}
+	.navigation {
+		width: 50%;
+		margin: 0 auto;
+	}
+	.navigation li{
+		display: block;
+		margin: 5px;
+		text-align: center;
+	}
+	.navigation li.current {
+		font-weight: bold;
+		border-bottom: none;
+	}
+	.featured-image {
+		width: 98%;
+		padding: 0px;
+		display: none;
+	}
+	.float-right {
+		display: none;
+		color: #fff;
+	}
+}
