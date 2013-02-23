@@ -1,0 +1,16 @@
+# standard jekyll configuration
+permalink: /posts/:title/
+pygments: true
+auto: true
+markdown: rdiscount
+
+# required configuration 
+domain: mu-socs.github.com
+title: Mount Union Society of Computing Students (SOCS)
+email: dregerkq@mountunion.edu
+description: "Welcome to Mount Union's Society of Computing Students (SOCS). We are an organization for anyone interested in computers, programming or technology in general. Feel free to contact us, and say hello!"
+
+# typekit: 
+#   id: eqd7pqa
+# google_analytics:
+#   account: UA-17208416-19

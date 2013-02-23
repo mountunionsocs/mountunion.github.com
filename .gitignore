@@ -1,2 +1,4 @@
 assets/css/.sass-cache/*
 .DS_Store
+_site/*
+.sass-cache/*

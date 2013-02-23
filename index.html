@@ -1,15 +1,6 @@
-<html>
-<head>
-<title>Society of Computing Students (SOCS) | University of Mount Union</title>
-<link rel="stylesheet" href="assets/css/style.css">
-<meta name="description" content="Welcome to Mount Union's Society of Computing Students (SOCS). We are an organization for anyone interested in computers, programming or technology in general. Feel free to contact us, and say hello!">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="http://use.edgefonts.net/source-sans-pro.js"></script>
-</head>
-
-<body>
-<h1>Society of Computing Students</h1>
-<h4><em>University of Mount Union</em></h4>
+---
+layout: default
+---
 <ul>
 <li><i class="icon icon-calendar"></i> Thursday</li>
 <li><i class="icon icon-time"></i> 7:00 PM</li>
@@ -38,6 +29,4 @@ while(x=eval(x));
 </script></li>
 </ul>
 
-<p>Want to contribute with us on GitHub? Check out our <a href="gitting-started/">gitting started</a> guide.</p>
-</body>
-</html>
+<h4>Recent posts: {% for post in site.posts %}&middot; <a href="{{ post.url }}">{{ post.title }}</a>{% endfor %}</h4>
