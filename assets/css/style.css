@@ -937,7 +937,25 @@ body {
 
 h1 {
   letter-spacing: -2px;
+  margin-bottom: 0em;
+  padding-bottom: 0;
   text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 900;
+}
+h1 a {
+  border-bottom: none;
+}
+
+h2 {
+  position: relative;
+}
+
+h3.tagline {
+  margin: 0.5em 0em;
+  padding: 0em;
+  font-weight: 100;
+  font-size: .9em;
 }
 
 .icon {
@@ -966,6 +984,14 @@ a {
 }
 a:hover {
   color: #222;
+}
+
+.post-permalink {
+  border-bottom: none;
+  width: 50px;
+  display: inline-block;
+  padding-bottom: 0px;
+  margin-left: -50px;
 }
 
 ::selection {
