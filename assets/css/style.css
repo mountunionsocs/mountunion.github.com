@@ -727,7 +727,11 @@ ul {
   margin: 0; }
 li {
   padding: 0; 
-  margin: 0;}
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
 a {
   text-decoration: none;
   color: #FB412E; 
