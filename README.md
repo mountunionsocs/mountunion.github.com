@@ -12,7 +12,7 @@ Want to write a post for our website? It can be about anything technology relate
 
 There are some things to remember: 
 
-1. When you name your file, use the ".md" extension. 
+1. When you name your file, use YYYY-MM-DD-your-title.md format. 
 2. The top of your file must contain the following: 
 
 ```
