@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Gitting Started
+tags: minutes
 ---
 *Note:* Be sure to use your @mountunion.edu email address for the following account. 
 
