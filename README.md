@@ -1,7 +1,7 @@
 SOCS website
 =======
 
-The source code for our lovely little [website](http://raider.mountunion.edu/organizations/socs). 
+The source code for our lovely little [website](http://mountunionsocs.github.io). 
 
 ## Contributing
 
